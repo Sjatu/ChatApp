@@ -101,7 +101,7 @@ jQuery(function ($) {
         }
         
     })
-
+//private message
     socket.on('whisper', function (data) {
         if (data.nick == 'You') {
             $chat.append(`<div class="media w-50 ml-auto mb-3">
